@@ -45,11 +45,15 @@ body {
   min-height: 100%;
   min-width: 100%;
   font-family: "Montserrat";
-  background-image: url("https://cdn.discordapp.com/attachments/753726199280435230/1109126592862638191/Mesa_de_trabajo_6.png");
+  background-image: url("https://cdn.discordapp.com/attachments/753726199280435230/1109169143229452329/Mesa_de_trabajo_6.png");
   background-color: var(--color-background);
   font-weight: 400;
   font-size: var(--font-size-normal);
   overflow-x: hidden;
+}
+
+.tituloBlanco {
+  color: white;
 }
 
 canvas {
@@ -151,12 +155,11 @@ canvas {
 
     .ground {
       z-index: -1;
-      background-image: url("https://cdn.discordapp.com/attachments/753726199280435230/1109128236262232214/Mesa_de_trabajo_6.png");
     }
 
     .clouds {
       z-index: 2;
-      background-image: url("https://assets.codepen.io/557388/clouds.png");
+      background-image: url("https://cdn.discordapp.com/attachments/753726199280435230/1109170173572808774/Mesa_de_trabajo_6_copia.png");
     }
   }
 
@@ -180,7 +183,6 @@ canvas {
 
   h1,
   h2 {
-
     font-size: var(--font-size-large);
     margin: 0vmin 0 2vmin 0;
     font-weight: 700;
