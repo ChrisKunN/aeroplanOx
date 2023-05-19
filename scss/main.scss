@@ -46,10 +46,52 @@ body {
   min-width: 100%;
   font-family: "Montserrat";
   background-image: url("https://cdn.discordapp.com/attachments/753726199280435230/1109169143229452329/Mesa_de_trabajo_6.png");
+
   background-color: var(--color-background);
   font-weight: 400;
   font-size: var(--font-size-normal);
   overflow-x: hidden;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 20px;
+  color: white;
+
+  .nav-left {
+    display: flex;
+    align-items: center;
+
+    .logo {
+      width: 50px; // Ajusta esto al tamaño de tu logo
+      margin-right: 10px;
+    }
+
+    .nav-phrase {
+      font-size: 1.2em; // Ajusta esto al tamaño que quieras
+    }
+  }
+
+  .nav-right {
+    .nav-link {
+      margin-left: 20px;
+      color: white;
+      text-decoration: none;
+
+      &:hover {
+        color: gray;
+      }
+    }
+  }
+}
+
+.intro {
+  position: absolute;
+  top: 380px;
+  left: 400px;
 }
 
 .tituloBlanco {
