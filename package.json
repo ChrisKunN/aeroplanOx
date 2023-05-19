@@ -1,0 +1,21 @@
+{
+  "name": "airplane",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.62.1"
+  },
+  "dependencies": {
+    "gsap": "^3.11.5",
+    "three": "^0.152.2"
+  }
+}
